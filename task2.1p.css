@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container form {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Add spacing between elements */
+}
+
+.container p {
+    margin: 0; /* Remove margin to prevent spacing */
+}
+
+.container input[type="email"] {
+    margin-left: 10px; /* Add spacing between <p> and input */
+}
+
+.btn {
+    margin-left: 10px; /* Add spacing between input and button */
+}
